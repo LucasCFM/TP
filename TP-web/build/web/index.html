@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TP</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top" style="width: 100%; margin: 0px">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand text-center" style="padding-left: 50px">TP</a>
+
+                </div>
+                <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html"> Home <span class="sr-only">(current)</span></a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <div class="col-md-12 text-center" style="padding: 40px">
+            <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+                <button type="button" class="btn btn-default" onclick=" window.location = 'CadastroUsuario.jsp'">Cadastrar Usuário</button>
+                <button type="button" class="btn btn-default" onclick=" window.location = 'LoginUsuario.jsp'">Login de Usuário</button>
+                <button type="button" class="btn btn-default" onclick=" window.location = 'excluirUsuario.jsp'">Exclusão de Usuário</button>
+                <form method="POST" action="listarTodosUsuario">
+                    <input type="submit" class="btn btn-default btn-block" value="Listar Usuários">
+                </form><br/>
+            </div>
+                
+            <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+                <button type="button" class="btn btn-default" onclick=" window.location = 'cadastrarProduto.jsp'">Cadastrar Produto</button><br/>
+            </div>
+                
+            <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+                <button type="button" class="btn btn-default" onclick=" window.location = 'cadastrarFornecedor.jsp'">Cadastrar Fornecedor</button>
+                <form method="POST" action="listarFornecedores">
+                    <input type="submit" class="btn btn-default btn-block" value="Listar/Alterar Fornecedores">
+                </form><br/>
+            </div>
+
+            <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+                <button type="button" class="btn btn-default" onclick="window.location = 'comprar.jsp'">Compra</button>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
