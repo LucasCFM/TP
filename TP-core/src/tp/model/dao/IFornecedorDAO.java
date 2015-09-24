@@ -1,8 +1,9 @@
 package tp.model.dao;
 
-import tp.model.domain.Fornecedor;
+
 import tp.util.db.exception.PersistenciaException;
 import java.util.ArrayList;
+import tp.domain.Fornecedor;
 
 public interface IFornecedorDAO {
 

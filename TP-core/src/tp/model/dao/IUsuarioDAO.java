@@ -1,6 +1,6 @@
 package tp.model.dao;
 
-import tp.model.domain.Usuario;
+import tp.domain.Usuario;
 import tp.util.db.exception.PersistenciaException;
 import java.util.ArrayList;
 

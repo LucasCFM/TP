@@ -1,7 +1,7 @@
 package tp.model.dao.impl;
 
 import tp.model.dao.IFornecedorDAO;
-import tp.model.domain.Fornecedor;
+import tp.domain.Fornecedor;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

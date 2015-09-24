@@ -1,7 +1,7 @@
 package tp.model.dao.impl;
 
 import tp.model.dao.IUsuarioDAO;
-import tp.model.domain.Usuario;
+import tp.domain.Usuario;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
