@@ -3,7 +3,7 @@ package tp.model.service.impl;
 import tp.model.dao.IUsuarioDAO;
 import tp.model.dao.impl.UsuarioDAO;
 import tp.domain.Usuario;
-import tp.IService.IManterUsuario;
+import tp.service.IManterUsuario;
 import tp.util.db.exception.NegocioException;
 import tp.util.db.exception.PersistenciaException;
 import java.util.List;

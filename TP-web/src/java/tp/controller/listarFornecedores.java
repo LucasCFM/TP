@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import tp.domain.Fornecedor;
-import tp.IService.IManterFornecedor;
+import tp.service.IManterFornecedor;
 import tp.model.service.impl.ManterFornecedor;
 import tp.util.db.exception.PersistenciaException;
 

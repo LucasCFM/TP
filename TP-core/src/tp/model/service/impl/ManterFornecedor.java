@@ -3,7 +3,7 @@ package tp.model.service.impl;
 import tp.model.dao.IFornecedorDAO;
 import tp.model.dao.impl.FornecedorDAO;
 import tp.domain.Fornecedor;
-import tp.IService.IManterFornecedor;
+import tp.service.IManterFornecedor;
 import tp.util.db.exception.NegocioException;
 import tp.util.db.exception.PersistenciaException;
 import java.util.List;

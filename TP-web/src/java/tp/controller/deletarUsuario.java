@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import tp.domain.Usuario;
-import tp.IService.IManterUsuario;
+import tp.service.IManterUsuario;
 import tp.model.service.impl.ManterUsuario;
 import tp.util.db.exception.PersistenciaException;
 

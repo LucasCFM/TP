@@ -1,4 +1,4 @@
-package tp.IService;
+package tp.service;
 
 import tp.util.db.exception.NegocioException;
 import tp.util.db.exception.PersistenciaException;
