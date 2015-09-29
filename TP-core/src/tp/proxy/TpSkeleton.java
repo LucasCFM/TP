@@ -5,6 +5,8 @@
  */
 package tp.proxy;
 
+
+import tp.service.IManterUsuario;
 import java.net.Socket;
 
 /**
@@ -13,6 +15,8 @@ import java.net.Socket;
  */
 public class TpSkeleton {
     private Socket socket;
+    IManterUsuario manterusuario;
+    
     
     public TpSkeleton(Socket socket) {
         this.socket = socket;
